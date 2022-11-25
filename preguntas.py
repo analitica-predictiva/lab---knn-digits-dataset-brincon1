@@ -20,7 +20,7 @@ def pregunta_01():
     digits = datasets.load_digits()
 
     # Imprima los nombres de la variable target del dataset
-    print(np.unique(digits.target))
+    print(digits.target_name)
 
     # Imprima las dimensinoes de matriz de datos
     print(digits.data.shape)
